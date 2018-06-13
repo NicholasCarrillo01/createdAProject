@@ -9,7 +9,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button newActivityButton;
-    private Button FinishProgramButton;
+    private Button finishProgramButton;
 
     private Intent newActivity;
 
@@ -22,16 +22,22 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "onCreate", Toast.LENGTH_LONG).show();
 
         newActivityButton = findViewById(R. id.new_activity_button);
-        finishProgramButton = findViewById(R.id.finishActivtyButton);
+        finishProgramButton = findViewById(R.id.finish_activity_button);
 
-        neweActivity = new Intent ()
+        newActivity = new Intent 
+
 
         setListeners();
 
     }
 
     private void setListeners() {
-        
+        newActivityButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(newActivity);
+            }
+        }
     }
 
 
