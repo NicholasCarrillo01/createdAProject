@@ -12,12 +12,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="102dp"
         android:text="Start New Activity"
-        app:layout_constraintEnd_toEndOf="@+id/FInish_Actvity_Button"
-        app:layout_constraintStart_toStartOf="@+id/FInish_Actvity_Button"
+        app:layout_constraintEnd_toEndOf="@+id/Finish_Activity_Button"
+        app:layout_constraintStart_toStartOf="@+id/Finish_Activity_Button"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/FInish_Actvity_Button"
+        android:id="@+id/Finish_Activity_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="126dp"
